@@ -1,0 +1,7 @@
+{
+  "name": "FreshMart Pro",
+  "description": "A comprehensive grocery e-commerce solution with Customer Storefront, Delivery Partner App, and Admin Dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
