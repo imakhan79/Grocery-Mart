@@ -27,7 +27,7 @@ export interface User {
 
 export interface ProductVariant {
   id: string;
-  name: string; // e.g., "Standard", "Value Pack"
+  name: string;
   unit: string;
   price: number;
   stock: number;
@@ -43,6 +43,7 @@ export interface Product {
   subCategory: string;
   brand: string;
   image: string;
+  gallery?: string[];
   stock: number;
   rating: number;
   reviewsCount: number;
